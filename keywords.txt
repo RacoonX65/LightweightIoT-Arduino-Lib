@@ -1,0 +1,6 @@
+LightweightIoT	KEYWORD1
+begin	KEYWORD2
+writePoint	KEYWORD2
+addTag	KEYWORD2
+beginBatch	KEYWORD2
+endBatch	KEYWORD2

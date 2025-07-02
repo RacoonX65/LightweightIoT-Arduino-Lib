@@ -1,0 +1,30 @@
+# Build artifacts
+*.o
+*.a
+*.hex
+*.elf
+*.bin
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Arduino specific
+*.eep
+*.lst
+*.lss
+*.sym
+*.map
+
+# Dependencies
+/libraries/
