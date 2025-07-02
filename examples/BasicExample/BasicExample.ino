@@ -1,3 +1,19 @@
+/*
+ * BasicExample
+ * Created by Judas Sithole
+ * 
+ * This example shows the basic usage of the LightweightIoT library with error handling
+ * and WiFi connection management. It demonstrates both single point and batch data
+ * writing to InfluxDB using an analog sensor.
+ * 
+ * Hardware Required:
+ * - ESP32 or compatible board
+ * - Analog sensor connected to pin 34
+ * 
+ * Circuit:
+ * - Connect analog sensor to pin 34
+ */
+
 #include <WiFi.h>
 #include <LightweightIoT.h>
 

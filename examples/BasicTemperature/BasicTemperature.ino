@@ -1,3 +1,19 @@
+/*
+ * BasicTemperature Example
+ * Created by Judas Sithole
+ * 
+ * This example demonstrates how to read temperature and humidity data from a DHT22
+ * sensor and send it to InfluxDB. It shows basic sensor reading and data transmission
+ * with proper error checking.
+ * 
+ * Hardware Required:
+ * - ESP32 or compatible board
+ * - DHT22 temperature and humidity sensor
+ * 
+ * Circuit:
+ * - Connect DHT22 to pin 2
+ */
+ 
 #include <LightweightIoT.h>
 #include <DHT.h>
 

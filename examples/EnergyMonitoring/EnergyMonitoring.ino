@@ -1,3 +1,20 @@
+/*
+ * EnergyMonitoring Example
+ * Created by Judas Sithole
+ * 
+ * This example shows how to monitor electrical parameters using a PZEM-004T sensor.
+ * It demonstrates advanced usage of the library with device location tracking and
+ * batch measurements for power monitoring applications.
+ * 
+ * Hardware Required:
+ * - ESP32 or compatible board
+ * - PZEM-004T v3.0 power monitoring sensor
+ * 
+ * Circuit:
+ * - Connect PZEM-004T RX to pin 16
+ * - Connect PZEM-004T TX to pin 17
+ */
+
 #include <WiFi.h>
 #include <LightweightIoT.h>
 #include <PZEM004Tv30.h>

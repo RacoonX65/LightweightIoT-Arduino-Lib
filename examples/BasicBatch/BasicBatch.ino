@@ -1,3 +1,20 @@
+/*
+ * BasicBatch Example
+ * Created by Judas Sithole
+ * 
+ * This example demonstrates how to use batch operations to collect multiple sensor readings
+ * and send them to InfluxDB in a single request. It uses a BMP280 sensor to measure
+ * temperature and pressure, collecting 5 readings before sending them as a batch.
+ * 
+ * Hardware Required:
+ * - ESP32 or compatible board
+ * - BMP280 sensor
+ * 
+ * Circuit:
+ * - Connect BMP280 to your board's I2C pins
+ */
+
+
 #include <LightweightIoT.h>
 #include <Adafruit_BMP280.h>
 

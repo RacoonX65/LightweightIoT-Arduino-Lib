@@ -1,3 +1,22 @@
+/*
+ * BasicMultiSensor Example
+ * Created by Judas Sithole
+ * 
+ * This example shows how to use multiple sensors with different tags for each sensor.
+ * It demonstrates reading from a DHT22 temperature/humidity sensor and a BH1750
+ * light sensor, sending data to InfluxDB with appropriate location tags.
+ * 
+ * Hardware Required:
+ * - ESP32 or compatible board
+ * - DHT22 temperature/humidity sensor
+ * - BH1750 light sensor
+ * 
+ * Circuit:
+ * - Connect DHT22 to pin 2
+ * - Connect BH1750 to I2C pins
+ */
+
+
 #include <LightweightIoT.h>
 #include <DHT.h>
 #include <BH1750.h>

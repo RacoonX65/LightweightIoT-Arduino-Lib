@@ -1,3 +1,22 @@
+/*
+ * MultiSensorExample
+ * Created by Judas Sithole
+ * 
+ * This advanced example shows how to manage multiple sensors in different locations
+ * using device configurations and location tracking. It demonstrates proper error
+ * handling, memory management, and power saving features.
+ * 
+ * Hardware Required:
+ * - ESP32 or compatible board
+ * - Analog temperature sensor
+ * - Analog humidity sensor
+ * - Analog light sensor
+ * 
+ * Circuit:
+ * - Connect temperature sensor to pin 34
+ * - Connect humidity sensor to pin 35
+ * - Connect light sensor to pin 36
+ */
 #include <WiFi.h>
 #include <LightweightIoT.h>
 

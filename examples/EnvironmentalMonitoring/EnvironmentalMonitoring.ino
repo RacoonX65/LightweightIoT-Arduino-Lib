@@ -1,3 +1,22 @@
+/*
+ * EnvironmentalMonitoring Example
+ * Created by Judas Sithole
+ * 
+ * This example demonstrates comprehensive environmental monitoring using multiple
+ * sensors (DHT22 and BMP280) with power management features. It shows how to
+ * implement deep sleep for battery-powered applications.
+ * 
+ * Hardware Required:
+ * - ESP32 or compatible board
+ * - DHT22 temperature and humidity sensor
+ * - BMP280 pressure sensor
+ * 
+ * Circuit:
+ * - Connect DHT22 to pin 4
+ * - Connect BMP280 SDA to pin 21
+ * - Connect BMP280 SCL to pin 22
+ */
+
 #include <WiFi.h>
 #include <LightweightIoT.h>
 #include <DHT.h>
