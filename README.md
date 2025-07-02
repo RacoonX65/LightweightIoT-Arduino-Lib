@@ -177,4 +177,3 @@ This README.md provides:
 6. Contributing guidelines
 7. License and support information
 
-Would you like me to help you with any other documentation, such as improving the example sketches or adding more detailed API documentation?
