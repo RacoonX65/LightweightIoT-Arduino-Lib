@@ -3,8 +3,24 @@
 
 [![Arduino Library Manager](https://www.ardu-badge.com/badge/LightweightIoT.svg)](https://www.ardu-badge.com/LightweightIoT)
 [![Arduino Library Specification](https://img.shields.io/badge/Arduino%20Library%20Specification-1.5-blue)](https://arduino.github.io/arduino-cli/latest/library-specification/)
+[![Build Status](https://github.com/RacoonX65/LightweightIoT-Arduino-Lib/actions/workflows/arduino-lint.yml/badge.svg)](https://github.com/RacoonX65/LightweightIoT-Arduino-Lib/actions)
+[![GitHub release (latest by date)](https://img.shields.io/github/v/release/RacoonX65/LightweightIoT-Arduino-Lib)](https://github.com/RacoonX65/LightweightIoT-Arduino-Lib/releases)
 
 A lightweight Arduino library for sending sensor data to InfluxDB Cloud. This library provides an easy-to-use interface for IoT data collection and transmission, with support for multiple sensors, batch operations, and power management features.
+
+## Table of Contents
+- [Features](#features)
+- [Installation](#installation)
+- [Dependencies](#dependencies)
+- [Basic Usage](#basic-usage)
+- [Examples](#examples)
+- [Advanced Features](#advanced-features)
+- [Compatibility](#compatibility)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#contributing)
+- [License](#license)
+- [Author](#author)
+- [Support](#support)
 
 ## Features
 
@@ -152,4 +168,20 @@ Judas Sithole (judassithole@duck.com)
 
 For issues and feature requests, please create an issue in the GitHub repository:
 https://github.com/RacoonX65/LightweightIoT-Arduino-Lib
+
+## Compatibility
+
+This library has been tested with:
+- ESP8266 boards (NodeMCU, Wemos D1 Mini)
+- ESP32 boards (ESP32 DevKit, ESP32-WROOM)
+- Arduino IDE 1.8.x and 2.x
+
+## Troubleshooting
+
+### Common Issues
+1. **Connection Failed**: Ensure your WiFi credentials and InfluxDB configuration are correct
+2. **Data Not Appearing**: Verify your bucket and organization settings in InfluxDB
+3. **Compilation Errors**: Make sure you have the correct board package installed
+
+For more detailed troubleshooting, check the [Issues](https://github.com/RacoonX65/LightweightIoT-Arduino-Lib/issues) page.
 
