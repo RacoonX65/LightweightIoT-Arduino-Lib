@@ -1,6 +1,9 @@
 
 # LightweightIoT Arduino Library
 
+[![Arduino Library Manager](https://img.shields.io/badge/Arduino%20Library%20Manager-LightweightIoT-green)](https://www.arduino.cc/reference/en/libraries/lightweightiot/)
+[![Arduino Library Specification](https://img.shields.io/badge/Arduino%20Library%20Specification-1.5-blue)](https://arduino.github.io/arduino-cli/latest/library-specification/)
+
 A lightweight Arduino library for sending sensor data to InfluxDB Cloud. This library provides an easy-to-use interface for IoT data collection and transmission, with support for multiple sensors, batch operations, and power management features.
 
 ## Features
@@ -150,14 +153,4 @@ Judas Sithole (judassithole@duck.com)
 
 For issues and feature requests, please create an issue in the GitHub repository:
 https://github.com/RacoonX65/LightweightIoT-Arduino-Lib
-```
-
-This README.md provides:
-1. Clear description of the library and its features
-2. Installation instructions for both Library Manager and manual installation
-3. Detailed usage examples with code snippets
-4. List of all example sketches
-5. Advanced features documentation
-6. Contributing guidelines
-7. License and support information
 
