@@ -1,7 +1,7 @@
 
 # LightweightIoT Arduino Library
 
-[![Arduino Library Manager](https://img.shields.io/badge/Arduino%20Library%20Manager-LightweightIoT-green)](https://www.arduino.cc/reference/en/libraries/lightweightiot/)
+[![Arduino Library Manager](https://www.ardu-badge.com/badge/LightweightIoT.svg)](https://www.ardu-badge.com/LightweightIoT)
 [![Arduino Library Specification](https://img.shields.io/badge/Arduino%20Library%20Specification-1.5-blue)](https://arduino.github.io/arduino-cli/latest/library-specification/)
 
 A lightweight Arduino library for sending sensor data to InfluxDB Cloud. This library provides an easy-to-use interface for IoT data collection and transmission, with support for multiple sensors, batch operations, and power management features.
@@ -33,8 +33,7 @@ A lightweight Arduino library for sending sensor data to InfluxDB Cloud. This li
 ## Dependencies
 
 - ArduinoJson (>=6.0.0)
-- WiFi
-- HTTPClient
+- ESP8266 or ESP32 board package (includes WiFi and HTTPClient)
 
 ## Basic Usage
 
