@@ -3,7 +3,7 @@
 
 [![Arduino Library Manager](https://www.ardu-badge.com/badge/LightweightIoT.svg)](https://www.ardu-badge.com/LightweightIoT)
 [![Arduino Library Specification](https://img.shields.io/badge/Arduino%20Library%20Specification-1.5-blue)](https://arduino.github.io/arduino-cli/latest/library-specification/)
-[![Arduino Library CI](https://github.com/RazoonXD65/LightweightIoT-Arduino-Lib/workflows/Arduino%20Library%20CI/badge.svg)
+[![Arduino Library CI](https://github.com/RacoonX65/LightweightIoT-Arduino-Lib/workflows/Arduino%20Library%20CI/badge.svg)](https://github.com/RacoonX65/LightweightIoT-Arduino-Lib/actions)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/RacoonX65/LightweightIoT-Arduino-Lib)](https://github.com/RacoonX65/LightweightIoT-Arduino-Lib/releases)
 
 A lightweight Arduino library for sending sensor data to InfluxDB Cloud. This library provides an easy-to-use interface for IoT data collection and transmission, with support for multiple sensors, batch operations, and power management features.
