@@ -16,8 +16,8 @@
           },
           "url": "https://github.com/RacoonX65/LightweightIoT-Arduino-Lib/archive/refs/tags/v1.0.1.zip",
           "archiveFileName": "LightweightIoT-1.0.1.zip",
-          "checksum": "SHA-256:[You'll need to calculate this after creating the release]",
-          "size": "[You'll need to update this after creating the release]",
+          "checksum": "SHA-256:32FB5349A327DBCF647C6C309FE34D67E3BFE93D38B349BF0DDB927281949252",
+          "size": 22815,
           "boards": [
             {"name": "ESP8266 Boards"},
             {"name": "ESP32 Boards"}
