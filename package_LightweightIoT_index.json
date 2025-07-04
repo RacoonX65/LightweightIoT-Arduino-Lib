@@ -9,15 +9,15 @@
         {
           "name": "LightweightIoT",
           "architecture": "esp8266,esp32",
-          "version": "1.0.0",
+          "version": "1.0.1",
           "category": "Communication",
           "help": {
             "online": "https://github.com/RacoonX65/LightweightIoT-Arduino-Lib/issues"
           },
-          "url": "https://github.com/RacoonX65/LightweightIoT-Arduino-Lib/archive/refs/tags/v1.0.0.zip",
-          "archiveFileName": "LightweightIoT-1.0.0.zip",
-          "checksum": "SHA-256:47548ea89450403411d38cc5a208ef2bb25237ed8cfa7300ddb94f63ed637131",
-          "size": "21174",
+          "url": "https://github.com/RacoonX65/LightweightIoT-Arduino-Lib/archive/refs/tags/v1.0.1.zip",
+          "archiveFileName": "LightweightIoT-1.0.1.zip",
+          "checksum": "SHA-256:[You'll need to calculate this after creating the release]",
+          "size": "[You'll need to update this after creating the release]",
           "boards": [
             {"name": "ESP8266 Boards"},
             {"name": "ESP32 Boards"}
